@@ -1,8 +1,15 @@
 site_name: "pjykk's blog"
+site_url: https://pjykk.github.io
 site_author: pjykk
 theme:
   name: material
   language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+  palette:
+    - scheme: default
+    - scheme: slate
 nav:
   - 首页: index.md
 markdown_extensions:
